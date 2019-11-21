@@ -34,7 +34,6 @@ void loop()
   // convert to inches by dividing by 2.54
   Serial.print(cm);
   Serial.print("cm, ");
-  Serial.print(inches);
   if (cm > distanceThreshold) {
     digitalWrite(2, LOW);
     digitalWrite(3, LOW);
